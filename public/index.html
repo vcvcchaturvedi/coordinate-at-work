@@ -15,6 +15,46 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="getMediaElement-v1.2.css">
+    <link rel="stylesheet" href="https://www.webrtc-experiment.com/style.css">
+
+        <style>
+            audio, video {
+                -moz-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+
+                -o-transition: all 1s ease;
+                -webkit-transition: all 1s ease;
+                transition: all 1s ease;
+                vertical-align: top;
+            }
+
+            input {
+                border: 1px solid #d9d9d9;
+                border-radius: 1px;
+                font-size: 2em;
+                margin: .2em;
+                width: 30%;
+            }
+
+            .setup {
+                border-bottom-left-radius: 0;
+                border-top-left-radius: 0;
+                font-size: 102%;
+                height: 47px;
+                margin-left: -9px;
+                margin-top: 8px;
+                position: absolute;
+            }
+
+            p { padding: 1em; }
+
+            li {
+                border-bottom: 1px solid rgb(189, 189, 189);
+                border-left: 1px solid rgb(189, 189, 189);
+                padding: .5em;
+            }
+        </style>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -39,5 +79,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- <script src="adapter-latest.js"></script> -->
   </body>
 </html>
