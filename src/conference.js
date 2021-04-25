@@ -384,8 +384,8 @@ export const conference = function (config) {
     defaultSocket.send({
       participant: true,
       userToken: self.userToken,
-      userName: self.userName,
-      ishost: self.ishost,
+      userName: un,
+      ishost: ih,
       joinees: self.joinees,
       joinUser: channel,
       channel: new_channel,
