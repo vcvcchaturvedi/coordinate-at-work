@@ -61,8 +61,10 @@ export const MainPanel = function () {
           Setup New Conference
         </button>
         <br />
-        <button id="record">Start Recording</button>
-        <button id="download" disabled>
+        <button id="record" className="Hidden" disabled>
+          Start Recording
+        </button>
+        <button id="download" className="Hidden" disabled>
           Download
         </button>
         <button id="share" onClick={shareClick}>
